@@ -7,7 +7,7 @@ const peliculas = [
     año: 2015,
     puntuacion: 8.1,
     vistas: 15420,
-    poster: "https://picsum.photos/300/400?random=1",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23FF4444' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EMad Max%3C/text%3E%3Ctext x='50%25' y='75%25' font-size='16' fill='white' text-anchor='middle' font-family='Arial'%3EFuria en el Camino%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/F7XknTjbzzI",
     sinopsis: "En un futuro devastado, Max Rockatansky es perseguido por el despiadado Inmortán Joe. Se ve obligado a conducir un enorme camión cisterna a través del desierto en una carrera contrarreloj. Mad Max debe colaborar con Furiosa, una guerrera leal al tirano, para escapar de las garras de Joe y encontrar la libertad.",
     generos: "Acción, Ciencia Ficción"
@@ -19,7 +19,7 @@ const peliculas = [
     año: 1997,
     puntuacion: 8.6,
     vistas: 22150,
-    poster: "https://picsum.photos/300/400?random=2",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23FFD700' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='32' fill='%23000000' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3ELa Vida%3C/text%3E%3Ctext x='50%25' y='65%25' font-size='32' fill='%23000000' text-anchor='middle' font-family='Arial' font-weight='bold'%3Ees Bella%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/K0nm1csKa5c",
     sinopsis: "Durante la Segunda Guerra Mundial, Guido, un padre judío de Arezzo (Italia), inventa un juego para proteger a su hijo Giosuè del horror del Holocausto. Con su ingenio y amor paternal, crea una realidad alternativa donde la tragedia se convierte en una aventura emocionante.",
     generos: "Drama, Comedia"
@@ -31,7 +31,7 @@ const peliculas = [
     año: 1994,
     puntuacion: 8.8,
     vistas: 34567,
-    poster: "https://picsum.photos/300/400?random=3",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%234169E1' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='32' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EForrest%3C/text%3E%3Ctext x='50%25' y='65%25' font-size='32' fill='white' text-anchor='middle' font-family='Arial' font-weight='bold'%3EGump%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/bLvqoByHAAk",
     sinopsis: "Forrest Gump, un hombre con un cociente intelectual bajo pero un corazón de oro, nos cuenta la historia de su vida extraordinaria. Desde la infancia en Alabama hasta convertirse en héroe de guerra, empresario de éxito, y atleta olímpico, su vida accidental pero genuina nos inspira.",
     generos: "Drama, Comedia"
@@ -43,7 +43,7 @@ const peliculas = [
     año: 2012,
     puntuacion: 7.2,
     vistas: 12890,
-    poster: "https://picsum.photos/300/400?random=4",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%2332CD32' width='300' height='400'/%3E%3Ctext x='50%25' y='45%25' font-size='28' fill='%23000000' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3ELa Zona de%3C/text%3E%3Ctext x='50%25' y='60%25' font-size='28' fill='%23000000' text-anchor='middle' font-family='Arial' font-weight='bold'%3EConfort%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/N2z2-LzvROc",
     sinopsis: "Un editor de libros excéntrico se ve obligado a viajar por todo el mundo cuando su principal fuente de ingresos le abandona. Durante su viaje, descubrirá nuevas amistades, experiencias humanas y aprendera que la vida fuera de su zona de confort es mucho más emocionante.",
     generos: "Comedia, Aventura"
@@ -55,7 +55,7 @@ const peliculas = [
     año: 2014,
     puntuacion: 8.6,
     vistas: 38920,
-    poster: "https://picsum.photos/300/400?random=5",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%231a1a2e' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='%2300d4ff' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EInterstellar%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/zSID6AWvubE",
     sinopsis: "En un futuro distópico donde la humanidad está al borde de la extinción, un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo planeta habitable. El piloto Cooper debe dejar atrás a su familia para salvar a la humanidad, en una misión que desafía el tiempo y el espacio.",
     generos: "Ciencia Ficción, Drama"
@@ -67,7 +67,7 @@ const peliculas = [
     año: 2018,
     puntuacion: 7.6,
     vistas: 9843,
-    poster: "https://picsum.photos/300/400?random=6",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%238B0000' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EHereditary%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/V6wWKNAHY-8",
     sinopsis: "Después del fallecimiento de su abuela, una familia se ve aterrada por sucesos cada vez más perturbadores y aterradores. Lo que comenzó como una simple herencia se transforma en una pesadilla de proporciones cataclísmicas que pone en peligro la vida de toda la familia.",
     generos: "Terror, Drama"
@@ -79,7 +79,7 @@ const peliculas = [
     año: 2001,
     puntuacion: 8.9,
     vistas: 45320,
-    poster: "https://picsum.photos/300/400?random=7",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23FF69B4' width='300' height='400'/%3E%3Ctext x='50%25' y='45%25' font-size='28' fill='%23000000' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EEl Viaje de%3C/text%3E%3Ctext x='50%25' y='60%25' font-size='28' fill='%23000000' text-anchor='middle' font-family='Arial' font-weight='bold'%3EChihiro%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/ByXuk9QAeE8",
     sinopsis: "Una niña llamada Chihiro entra accidentalmente en un mundo mágico poblado de dioses y espíritus. La única forma de regresar a casa es trabajar en una casa de baños mágica. Durante su viaje, aprenderá valiosas lecciones sobre el coraje, la amistad y la identidad.",
     generos: "Aventura, Fantasía"
@@ -91,7 +91,7 @@ const peliculas = [
     año: 2014,
     puntuacion: 7.4,
     vistas: 28764,
-    poster: "https://picsum.photos/300/400?random=8",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%232F4F4F' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EJohn Wick%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/ggFqg2x4rco",
     sinopsis: "Un asesino jubilado es arrastrado de nuevo a su vida anterior cuando unos criminales rompen su casa y le roban su auto. Conocido en el submundo criminal como una leyenda, John Wick emprende un camino de venganza que dejará a sus enemigos temblando de miedo.",
     generos: "Acción, Thriller"
@@ -103,7 +103,7 @@ const peliculas = [
     año: 1911,
     puntuacion: 7.9,
     vistas: 5420,
-    poster: "https://picsum.photos/300/400?random=9",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23DAA520' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='%23000000' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3ECantinflas%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/xJHEPp3GDJA",
     sinopsis: "La vida y carrera del legendario cómico mexicano Mario Cantinflas, quien revolucionó el cine con su humor absurdo y su peculiar forma de hablar. Una celebración de su genio cómico y su impacto duradero en la cultura cinematográfica mundial.",
     generos: "Comedia, Biografía"
@@ -115,7 +115,7 @@ const peliculas = [
     año: 2013,
     puntuacion: 7.7,
     vistas: 31200,
-    poster: "https://picsum.photos/300/400?random=10",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23000080' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='%2300BFFF' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EGravity%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/OiTiKOy1o0o",
     sinopsis: "Una ingeniera médica y un astronauta deben aprender a trabajar juntos cuando se quedan atrapados en el espacio después de un desastre en su nave. Flotando sin poder comunicarse con la Tierra, luchan por sobrevivir en el vacío infinito del espacio.",
     generos: "Ciencia Ficción, Thriller"
@@ -127,7 +127,7 @@ const peliculas = [
     año: 2001,
     puntuacion: 9.0,
     vistas: 52100,
-    poster: "https://picsum.photos/300/400?random=11",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%238B4513' width='300' height='400'/%3E%3Ctext x='50%25' y='40%25' font-size='28' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EEl se%C3%B1or de%3C/text%3E%3Ctext x='50%25' y='55%25' font-size='28' fill='white' text-anchor='middle' font-family='Arial' font-weight='bold'%3Elos Anillos%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/V75dmmwTw0c",
     sinopsis: "En un mundo de fantasía, un humilde hobbit debe llevar un anillo mágico a través de peligrosas tierras para destruirlo en los fuegos del Monte del Destino. Acompañado por amigos valientes, Frodo emprende una épica aventura que pondrá a prueba su coraje.",
     generos: "Aventura, Fantasía"
@@ -139,7 +139,7 @@ const peliculas = [
     año: 2002,
     puntuacion: 7.1,
     vistas: 18956,
-    poster: "https://picsum.photos/300/400?random=12",
+    poster: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23DC143C' width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='bold'%3EThe Ring%3C/text%3E%3C/svg%3E",
     trailer: "https://www.youtube.com/embed/KZkZSb33Vak",
     sinopsis: "Una periodista investiga una película misteriosa que mata a todos los que la ven siete días después. Para salvar su vida y la de su hijo, debe descubrir el oscuro secreto detrás de la cinta maldita antes de que sea demasiado tarde.",
     generos: "Terror, Misterio"
