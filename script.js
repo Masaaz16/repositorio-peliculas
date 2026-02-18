@@ -7,7 +7,7 @@ const peliculas = [
     año: 2015,
     puntuacion: 8.1,
     vistas: 15420,
-    poster: "https://images.unsplash.com/photo-1533613220915-609f2a6a7eeb?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/FF4444/FFFFFF?text=Mad+Max",
     trailer: "https://www.youtube.com/embed/F7XknTjbzzI",
     sinopsis: "En un futuro devastado, Max Rockatansky es perseguido por el despiadado Inmortán Joe. Se ve obligado a conducir un enorme camión cisterna a través del desierto en una carrera contrarreloj. Mad Max debe colaborar con Furiosa, una guerrera leal al tirano, para escapar de las garras de Joe y encontrar la libertad.",
     generos: "Acción, Ciencia Ficción"
@@ -19,7 +19,7 @@ const peliculas = [
     año: 1997,
     puntuacion: 8.6,
     vistas: 22150,
-    poster: "https://images.unsplash.com/photo-1570571215264-5b3f6d9d1f0?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/FFD700/000000?text=La+Vida+es+Bella",
     trailer: "https://www.youtube.com/embed/K0nm1csKa5c",
     sinopsis: "Durante la Segunda Guerra Mundial, Guido, un padre judío de Arezzo (Italia), inventa un juego para proteger a su hijo Giosuè del horror del Holocausto. Con su ingenio y amor paternal, crea una realidad alternativa donde la tragedia se convierte en una aventura emocionante.",
     generos: "Drama, Comedia"
@@ -31,7 +31,7 @@ const peliculas = [
     año: 1994,
     puntuacion: 8.8,
     vistas: 34567,
-    poster: "https://images.unsplash.com/photo-1556566662-13814d2e4b3b?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/4169E1/FFFFFF?text=Forrest+Gump",
     trailer: "https://www.youtube.com/embed/bLvqoByHAAk",
     sinopsis: "Forrest Gump, un hombre con un cociente intelectual bajo pero un corazón de oro, nos cuenta la historia de su vida extraordinaria. Desde la infancia en Alabama hasta convertirse en héroe de guerra, empresario de éxito, y atleta olímpico, su vida accidental pero genuina nos inspira.",
     generos: "Drama, Comedia"
@@ -43,7 +43,7 @@ const peliculas = [
     año: 2012,
     puntuacion: 7.2,
     vistas: 12890,
-    poster: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/32CD32/000000?text=Zona+de+Confort",
     trailer: "https://www.youtube.com/embed/N2z2-LzvROc",
     sinopsis: "Un editor de libros excéntrico se ve obligado a viajar por todo el mundo cuando su principal fuente de ingresos le abandona. Durante su viaje, descubrirá nuevas amistades, experiencias humanas y aprendera que la vida fuera de su zona de confort es mucho más emocionante.",
     generos: "Comedia, Aventura"
@@ -55,7 +55,7 @@ const peliculas = [
     año: 2014,
     puntuacion: 8.6,
     vistas: 38920,
-    poster: "https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/1a1a2e/00d4ff?text=Interstellar",
     trailer: "https://www.youtube.com/embed/zSID6AWvubE",
     sinopsis: "En un futuro distópico donde la humanidad está al borde de la extinción, un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo planeta habitable. El piloto Cooper debe dejar atrás a su familia para salvar a la humanidad, en una misión que desafía el tiempo y el espacio.",
     generos: "Ciencia Ficción, Drama"
@@ -67,7 +67,7 @@ const peliculas = [
     año: 2018,
     puntuacion: 7.6,
     vistas: 9843,
-    poster: "https://images.unsplash.com/photo-1525463020681-e1e42238cf10?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/8B0000/FFFFFF?text=Hereditary",
     trailer: "https://www.youtube.com/embed/V6wWKNAHY-8",
     sinopsis: "Después del fallecimiento de su abuela, una familia se ve aterrada por sucesos cada vez más perturbadores y aterradores. Lo que comenzó como una simple herencia se transforma en una pesadilla de proporciones cataclísmicas que pone en peligro la vida de toda la familia.",
     generos: "Terror, Drama"
@@ -79,7 +79,7 @@ const peliculas = [
     año: 2001,
     puntuacion: 8.9,
     vistas: 45320,
-    poster: "https://images.unsplash.com/photo-1533148935108-2c32060b3232?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/FF69B4/000000?text=Chihiro",
     trailer: "https://www.youtube.com/embed/ByXuk9QAeE8",
     sinopsis: "Una niña llamada Chihiro entra accidentalmente en un mundo mágico poblado de dioses y espíritus. La única forma de regresar a casa es trabajar en una casa de baños mágica. Durante su viaje, aprenderá valiosas lecciones sobre el coraje, la amistad y la identidad.",
     generos: "Aventura, Fantasía"
@@ -91,7 +91,7 @@ const peliculas = [
     año: 2014,
     puntuacion: 7.4,
     vistas: 28764,
-    poster: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=John+Wick",
     trailer: "https://www.youtube.com/embed/ggFqg2x4rco",
     sinopsis: "Un asesino jubilado es arrastrado de nuevo a su vida anterior cuando unos criminales rompen su casa y le roban su auto. Conocido en el submundo criminal como una leyenda, John Wick emprende un camino de venganza que dejará a sus enemigos temblando de miedo.",
     generos: "Acción, Thriller"
@@ -103,7 +103,7 @@ const peliculas = [
     año: 1911,
     puntuacion: 7.9,
     vistas: 5420,
-    poster: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/DAA520/000000?text=Cantinflas",
     trailer: "https://www.youtube.com/embed/xJHEPp3GDJA",
     sinopsis: "La vida y carrera del legendario cómico mexicano Mario Cantinflas, quien revolucionó el cine con su humor absurdo y su peculiar forma de hablar. Una celebración de su genio cómico y su impacto duradero en la cultura cinematográfica mundial.",
     generos: "Comedia, Biografía"
@@ -115,7 +115,7 @@ const peliculas = [
     año: 2013,
     puntuacion: 7.7,
     vistas: 31200,
-    poster: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/000080/00BFFF?text=Gravity",
     trailer: "https://www.youtube.com/embed/OiTiKOy1o0o",
     sinopsis: "Una ingeniera médica y un astronauta deben aprender a trabajar juntos cuando se quedan atrapados en el espacio después de un desastre en su nave. Flotando sin poder comunicarse con la Tierra, luchan por sobrevivir en el vacío infinito del espacio.",
     generos: "Ciencia Ficción, Thriller"
@@ -127,7 +127,7 @@ const peliculas = [
     año: 2001,
     puntuacion: 9.0,
     vistas: 52100,
-    poster: "https://images.unsplash.com/photo-1533148935108-2c32060b3232?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/8B4513/FFFFFF?text=Lord+of+Rings",
     trailer: "https://www.youtube.com/embed/V75dmmwTw0c",
     sinopsis: "En un mundo de fantasía, un humilde hobbit debe llevar un anillo mágico a través de peligrosas tierras para destruirlo en los fuegos del Monte del Destino. Acompañado por amigos valientes, Frodo emprende una épica aventura que pondrá a prueba su coraje.",
     generos: "Aventura, Fantasía"
@@ -139,7 +139,7 @@ const peliculas = [
     año: 2002,
     puntuacion: 7.1,
     vistas: 18956,
-    poster: "https://images.unsplash.com/photo-1478720568477-152d9e3fb27d?w=300&h=400&fit=crop",
+    poster: "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=The+Ring",
     trailer: "https://www.youtube.com/embed/KZkZSb33Vak",
     sinopsis: "Una periodista investiga una película misteriosa que mata a todos los que la ven siete días después. Para salvar su vida y la de su hijo, debe descubrir el oscuro secreto detrás de la cinta maldita antes de que sea demasiado tarde.",
     generos: "Terror, Misterio"
