@@ -2,40 +2,65 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Galería</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio de Películas</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<h1>Mi galería</h1>
+<div class="container">
+  <header>
+    <h1>🎬 Repositorio de Películas</h1>
+    
+    <div class="busqueda-container">
+      <input 
+        type="text" 
+        id="buscador" 
+        class="buscador" 
+        placeholder="Buscar películas..." 
+      >
+    </div>
+  </header>
 
-<div class="galeria">
-  <div class="card">
-    <img src="https://picsum.photos/300/200?1">
-    <div class="overlay">Imagen 1</div>
-  </div>
+  <nav class="categorias-nav">
+    <button class="btn-categoria activo" data-categoria="todas">Todas</button>
+    <button class="btn-categoria" data-categoria="accion">Acción</button>
+    <button class="btn-categoria" data-categoria="drama">Drama</button>
+    <button class="btn-categoria" data-categoria="comedia">Comedia</button>
+    <button class="btn-categoria" data-categoria="ciencia-ficcion">Ciencia Ficción</button>
+    <button class="btn-categoria" data-categoria="terror">Terror</button>
+    <button class="btn-categoria" data-categoria="aventura">Aventura</button>
+    <button class="btn-categoria" data-categoria="mas-vistas">⭐ Más Vistas</button>
+    <button class="btn-categoria" id="btnFavoritos" data-categoria="favoritos">❤️ Favoritos (<span id="contadorFavoritos">0</span>)</button>
+  </nav>
 
-  <div class="card">
-    <img src="https://picsum.photos/300/200?2">
-    <div class="overlay">Imagen 2</div>
+  <main>
+    <section class="peliculas-container" id="peliculasContainer">
+      <!-- Las películas se cargarán aquí dinámicamente -->
+    </section>
+  </main>
+</div>
+
+<!-- Modal para mostrar sinopsis -->
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar">&times;</span>
+    <div class="modal-header">
+      <img id="modalPoster" src="" alt="Poster">
+      <div class="modal-info">
+        <h2 id="modalTitulo"></h2>
+        <p class="modal-año"><strong>Año:</strong> <span id="modalAño"></span></p>
+        <p class="modal-genero"><strong>Género:</strong> <span id="modalGenero"></span></p>
+        <p class="modal-puntuacion"><strong>Calificación:</strong> <span id="modalPuntuacion"></span></p>
+      </div>
+    </div>
+    <div class="modal-body">
+      <h3>Sinopsis</h3>
+      <p id="modalSinopsis"></p>
+    </div>
   </div>
 </div>
-<h2>Formulario de contacto</h2>
 
-<form class="formulario">
-  <input type="text" placeholder="Tu nombre" required>
-
-  <input type="email" placeholder="Tu email" required>
-
-  <select required>
-    <option value="">Selecciona un país</option>
-    <option>México</option>
-    <option>España</option>
-    <option>Argentina</option>
-  </select>
-
-  <button type="submit">Enviar</button>
-</form>
-
+<script src="script.js"></script>
 </body>
 </html>
